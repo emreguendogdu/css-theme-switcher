@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Theme Switcher</title>
+
+    <script defer src="app.js"></script>
+</head>
+<body class="">
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#grid-section">Grid</a>
+            </li>
+            <li>
+                <a href="#paste-disabled-section">Paste-disabled</a>
+            </li>
+            <li class="has-dropdown">
+                <a href="#">Theme</a>
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <a href="#" id="light">light</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#" id="dark">dark</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#" id="solar">solarize</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        
+        <h1>Front End Web Development,<br>Fired Up</h1>
+        <p>Flutter, Firebase, Javascript, Node.js</p>
+    </header>
+    <main>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo quisquam laudantium temporibus sunt
+            necessitatibus at repudiandae eaque incidunt? Facere, aliquid. Deserunt cupiditate ab nemo nam similique modi adipisci
+            nisi deleniti est consequuntur? Veniam maiores reprehenderit ducimus soluta fugit nulla cupiditate laboriosam laudantium
+            odio quaerat quasi assumenda vel, maxime tempora sit nesciunt possimus? Nemo, quasi assumenda quo quos, nostrum officiis
+            accusantium rem dicta sint praesentium saepe modi laborum magnam? Doloribus perspiciatis recusandae minima doloremque?
+            Facilis tempora dolores voluptatibus nobis reprehenderit necessitatibus suscipit, nulla iure et veritatis inventore
+            omnis a hic dolorem. Animi omnis odit vitae officia dolore corporis libero debitis.
+        </p>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam illum laboriosam facilis cum odio culpa voluptate
+            rem inventore, animi cupiditate temporibus, alias corrupti, optio asperiores hic officia vel quis id ipsa reprehenderit.
+            Totam, quisquam rerum et deleniti architecto consequuntur, repudiandae quaerat quas itaque, eum obcaecati molestiae
+            aspernatur quibusdam. Quam quo eos vel esse maiores est? Eaque, impedit totam dolore laboriosam adipisci placeat
+            reiciendis autem. Vitae a quos debitis id qui asperiores, earum quo omnis praesentium maxime ea nemo atque dignissimos
+            exercitationem beatae, dolore nam quibusdam, tempora fugiat doloremque quae distinctio neque eaque. Consectetur quisquam
+            illo voluptas iste tempora cum fuga.
+        </p>
+    </main>
+    <section id="grid-section">
+        <h1>Grids</h1>
+        <h2>Basic Grid</h2>
+        <section class="basic-grid">
+            <div class="card">1</div>
+            <div class="card">2</div>
+            <div class="card">3</div>
+            <div class="card">4</div>
+            <div class="card">5</div>
+            <div class="card">6</div>
+            <div class="card">7</div>
+            <div class="card">8</div>
+            <div class="card">9</div>
+            <div class="card">10</div>
+            <div class="card">11</div>
+            <div class="card">12</div>
+        </section>
+        <h2>Photo Grid</h2>
+        <section class="photo-grid">
+            <div class="card card-tall card-wide"
+                style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')">
+                1
+            </div>
+            <div class="card card-tall"
+                style="background-image:url('https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')">
+                2
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583531172005-814191b8b6c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80')">
+                3
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583426573939-97d09302d76a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80')">
+                4
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583532452513-a02186582ccd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                5
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583445013765-46c20c4a6772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                6
+            </div>
+            <div class="card card-wide"
+                style="background-image:url('https://images.unsplash.com/photo-1583562835057-a62d1beffbf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=949&q=80')">
+                7
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583483425010-c566431a7710?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80')">
+                8
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583500557349-fb5238f8d946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80')">
+                9
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583468323330-9032ad490fed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80')">
+                10
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583425423320-2386622cd2e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1980&q=80')">
+                11
+            </div>
+            <div class="card"
+                style="background-image:url('https://images.unsplash.com/photo-1583518257225-f9a8081f6a84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                12
+            </div>
+        </section>
+        <h2>Animated Grid</h2>
+        <section class="animated-grid">
+            <div class="card animated-card first-card"
+                style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')">
+                1
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583585635793-0e1894c169bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80')">
+                2
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1700393289656-9e0a4ff76a2b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5MHx8fGVufDB8fHx8fA%3D%3D')">
+                3
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583426573939-97d09302d76a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80')">
+                4
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583532452513-a02186582ccd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                5
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583445013765-46c20c4a6772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                6
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583562835057-a62d1beffbf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=949&q=80')">
+                7
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583483425010-c566431a7710?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80')">
+                8
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583500557349-fb5238f8d946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80')">
+                9
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583468323330-9032ad490fed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80')">
+                10
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583425423320-2386622cd2e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1980&q=80')">
+                11
+            </div>
+            <div class="card animated-card"
+                style="background-image:url('https://images.unsplash.com/photo-1583518257225-f9a8081f6a84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')">
+                12
+            </div>
+            <div class="card animated-card" id="main-card"
+                style="background-image:url('https://images.unsplash.com/photo-1700380355880-878a1baea11c?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                Click to animate
+            </div>
+        </section>
+    </section>
+    <div id="paste-disabled-section">
+        <h1>Paste-Disabled</h1>
+            <input onpaste="return false" ondrop="return false" autocomplete="off" type="password" name="password" placeholder="Enter your password">
+            <input onpaste="return false" ondrop="return false" autocomplete="off" type="password" name="password" placeholder="Enter your password again">
+            <input type="button" onclick="window.location.replace('#')" name="password" value="Submit" id="submit-button">
+            <p>Paste this code on console to bypass paste-disabler:</p>
+            <input value='function dontTreadOnMe(e) {e.stopImmediatePropagation()} document.addEventListener("paste", dontTreadOnMe, true)'
+            id="copy-text">
+            </input>
+            <input type="button" value="Copy" id="copy-button" onclick="copyFunction()">
+    </div>
+</body>
+</html>
